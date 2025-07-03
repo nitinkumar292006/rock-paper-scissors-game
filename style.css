@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(246, 217, 181);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+    background-color: greenyellow;
+    border-bottom: 1px solid;
+}
+.Games{
+    height: 100px;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+}
+.Games img{
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+.Games img:hover{
+    
+    transform: scale(1.1);
+}
+.Games img:active{
+    opacity: 0;
+}
+.Score-card{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+.my-score{
+    height: 50px;
+    width: 150px;
+    
+    text-align: center;
+    background-color: rgb(255, 126, 14);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px ;
+}
+.computer-score{
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    background-color: rgb(255, 126, 14);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px ;
+}
+.play{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.info{
+    background-color: black;
+    color: white;
+    display: inline;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: all 0.3s ease-in;
+}
+.reset-button{
+    color: white;
+    display: inline;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+
+}
+.reset{
+    background-color: black;
+    color: white;
+    display: inline;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: all 0.3s ease-in;
+    border: none;
+}
+.reset:hover{
+    transform: scale(1.1);
+}
+.reset:active{
+    background-color: gray;
+}
